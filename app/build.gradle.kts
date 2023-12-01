@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "com.hamzaiqbal.photoeditorapp"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.hamzaiqbal.photoeditorapp"
@@ -56,4 +56,7 @@ dependencies {
     implementation ("io.reactivex.rxjava2:rxandroid:2.0.1")
     implementation ("com.github.bumptech.glide:glide:4.14.1")
     annotationProcessor ("com.github.bumptech.glide:compiler:4.14.1")
+
+    //dexter library
+    implementation ("com.karumi:dexter:6.2.2")
 }
